@@ -1,4 +1,4 @@
-package com.java.server;
+package com.java.api;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
