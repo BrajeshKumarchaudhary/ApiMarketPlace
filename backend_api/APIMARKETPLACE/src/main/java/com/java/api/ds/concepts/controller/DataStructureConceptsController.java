@@ -19,10 +19,9 @@ public class DataStructureConceptsController {
 	org.slf4j.Logger logger = LoggerFactory.getLogger(DataStructureConceptsController.class);
 
 	@GetMapping("wis_ds")
-	@ApiOperation(value = "what is data structure")
+	@ApiOperation(value ="")
 	@Common
 	public String ds() throws ApiException {
-//	       if(true)throw new ApiException(ApiMessages.INTERNAL_SERVER_ERROR_CODE, ApiMessages.INTERNAL_SERVER_ERROR_MESSAGE);
 		return "dataStructure";
 	}
 
